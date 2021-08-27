@@ -17,7 +17,7 @@ public class TinyAudio : MonoBehaviour
     [Tooltip("効果音のAudio Clipを、SEの列挙子と同じ順番で設定してください。"), SerializeField]
     AudioClip[] seList;
     AudioSource audioSource;
-  
+
     private void Awake()
     {
         Instance = this;
