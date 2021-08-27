@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class SEsetss : MonoBehaviour
 {
-  // Update is called once per frame
+    // Update is called once per frame
+    void Start()
+    {
+
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))
